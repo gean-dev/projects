@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Gean Dev Pre-TOI19",
+    "url": { "Link": "https://gean-dev.github.io/pre-toi19/" },
+    "description": "Just a practice contest for TOI19",
+    "tags": ["competitive programming", "programming contest"]
+  },
+  {
+    "id": 2,
+    "name": "Gean Dev DP Contest",
+    "url": {
+      "Ranking": "https://otog.cf/contest/history/78",
+      "Library": "https://github.com/gean-dev/DP-contest-lib"
+    },
+    "description": "Another contest but focus on Dynamic Programming problems",
+    "tags": ["competitive programming", "programming contest"]
+  }
+]
