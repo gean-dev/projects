@@ -4,7 +4,7 @@
     "name": "Gean Dev Pre-TOI19",
     "url": { "Link": "https://gean-dev.github.io/pre-toi19/" },
     "description": "Just a practice contest for TOI19",
-    "tags": ["competitive programming", "programming contest"]
+    "tags": ["Competitive Programming", "Contest"]
   },
   {
     "id": 2,
@@ -14,6 +14,15 @@
       "Library": "https://github.com/gean-dev/DP-contest-lib"
     },
     "description": "Another contest but focus on Dynamic Programming problems",
-    "tags": ["competitive programming", "programming contest"]
+    "tags": ["Competitive Programming", "Contest"]
+  },
+  {
+    "id": 3,
+    "name": "Projects",
+    "url": {
+      "Link": "https://gean-dev.github.io/projects"
+    },
+    "description": "Project website using Astro",
+    "tags": ["Web Development", "Astro"]
   }
 ]

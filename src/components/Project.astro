@@ -1,26 +1,33 @@
 ---
-import data from "@data/projects.json"
-import Card from "@components/Card.astro"
-import Tag from "@components/Tag.astro"
+import data from "@data/projects.json";
+import Card from "@components/Card.astro";
+import Tag from "@components/Tag.astro";
 ---
 
 <div class="w-full flex justify-center">
   <div class="w-3/4 flex gap-4">
-    {data.map((item, index) => (
-      <Card>
-        <h2 class="text-2xl font-bold">{item.name}</h2>
-        <div class="flex gap-1">
-          {item.tags.map((tag, index) => (
-            <Tag>{tag}</Tag>
-          ))}
-        </div>
-        <p>{item.description}</p>
-        <div class="flex gap-1">
-          {Object.entries(item.url).map(([key, value], index) => (
-            <a href={value}>{key}</a>
-          ))}
-        </div>
-      </Card>
-    ))}
+    {
+      data.map((item, index) => (
+        <Card>
+          <h2 class="text-2xl font-bold mb-2">{item.name}</h2>
+          <div class="flex gap-1">
+            {item.tags.map((tag, index) => (
+              <Tag>{tag}</Tag>
+            ))}
+          </div>
+          <p class="flex my-3">{item.description}</p>
+          <div class="flex gap-3 mt-auto">
+            {Object.entries(item.url).map(([key, value], index) => (
+              <a
+                href={value}
+                class="text-gray-500 hover:underline hover:font-semibold"
+              >
+                {key}
+              </a>
+            ))}
+          </div>
+        </Card>
+      ))
+    }
   </div>
 </div>
