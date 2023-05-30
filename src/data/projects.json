@@ -24,5 +24,14 @@
     },
     "description": "Project website using Astro",
     "tags": ["Web Development", "Astro"]
+  },
+  {
+    "id": 4,
+    "name": "TOI-19 Unofficial Scoreboard",
+    "url": {
+      "Link": "https://github.com/gean-dev/TOI19-scoreboard"
+    },
+    "description": "Unofficial scoreboard of TOI19",
+    "tags": ["Web Development", "Astro"]
   }
 ]
