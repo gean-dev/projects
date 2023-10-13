@@ -33,5 +33,14 @@
     },
     "description": "Unofficial scoreboard of TOI19",
     "tags": ["Web Development", "Astro"]
+  },
+  {
+    "id": 5,
+    "name": "Gean Dev Round #1",
+    "url": {
+      "Link": "https://github.com/gean-dev/contest"
+    },
+    "description": "Unofficial scoreboard of TOI19",
+    "tags": ["Competitive Programming", "Contest"]
   }
 ]
