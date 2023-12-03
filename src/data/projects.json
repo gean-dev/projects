@@ -42,5 +42,14 @@
     },
     "description": "Another contest",
     "tags": ["Competitive Programming", "Contest"]
-  }
+  },
+  {
+    "id": 6,
+    "name": "ICPC 2023 Book",
+    "url": {
+      "Link": "https://gean-dev.github.io/icpc-book"
+    },
+    "description": "ICPC Code Snippet Book for ICPC 2023",
+    "tags": ["Competitive Programming", "ICPC", "Contest"]
+  },
 ]
